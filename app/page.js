@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="">Landing Page</div>
+      <div className="">Landing Page of trust survey</div>
     </>
   );
 }
