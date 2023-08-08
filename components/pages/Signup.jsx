@@ -111,7 +111,7 @@ const Signup = () => {
       });
 
       const result = await Promise.all(promises);
-
+      console.log(result);
       const emailMessage = `
         First Name: ${firstName},
         Last Name: ${lastName},
@@ -149,8 +149,8 @@ const Signup = () => {
         referralId: "",
       });
       toast.success(
-        `Congratulations 
-        You’ve successfully submitted your details for the referral reward (you’ll be contacted if we need further verification and offer) Thanks`,
+        `Congratulations! 
+        You’ve successfully submitted your details for the referral reward (you’ll be contacted if we need further verification and offer). Thanks`,
         {
           theme: "dark",
           autoClose: false,
